@@ -1,0 +1,235 @@
+
+
+/* reset page margin padding */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Container format start */
+
+
+
+/* Container format end */
+
+
+/* side nav format start */
+#side-nav{
+    border: 1px solid green;
+    min-height: 100vh;
+    background: black;
+    transition: transform(0.5s);
+   
+}
+
+
+
+#side-nav.show{
+    border: 1px solid pink;
+    min-height: 100vh;
+    background: yellow;
+    width: 60%;
+   
+}
+
+
+
+#side-nav img{
+    width: 40%;
+    border: 3px solid orange;
+ 
+    
+}
+
+/* format side nav menu list */
+#side-nav a:hover{
+    background-color: yellow;
+    color: red;
+    transform: translateX(20px);
+ 
+    
+}
+
+
+
+/* format all a */
+a{
+    text-decoration: none;
+    padding-bottom: 4%;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+/* side nave format start */
+
+
+/* wrapper for email format start */
+#wrapper-for-emails{
+    border: 1px solid red;
+}
+
+/* wrapper for email format start */
+
+
+/* Email List format start */
+#email-list{
+    border: 1px solid green;
+    min-height: 100vh;
+    background-color: whitesmoke;
+}
+
+/* format email list icon */
+#email-list .bi{
+    height: 40px;
+    width: 40px;
+    font-size: 30px;
+    line-height: 40px;
+    color: blue;
+}
+
+/* format email list icon */
+#email-list .bi:hover{
+    color: red;
+    background: yellow;
+}
+
+.dropdown-menu{
+   min-width: 300px;
+}
+
+
+/* format email message p*/
+.email-message p{
+   overflow: hidden;
+   font-size: 1rem;
+
+}
+
+
+/* format email message h5*/
+.email-message h5{
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    padding: 4%;
+    background: blue;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+/* Email List format ends*/
+
+
+/* Email detail format start */
+.email-detail {
+    border: 1px solid green;
+    padding: 3%;
+    
+}
+
+/* format social link icon  */
+.row-with-icons .bi{
+    height: 40px;
+    width: 40px;
+    font-size: 30px;
+    line-height: 40px;
+    margin: 40px 5px 0;
+    color: white;
+    cursor: pointer;
+   
+
+}
+
+
+
+/* add hover effect to icon */
+.row-with-icons a .bi:hover {
+    background: yellow;
+    color: red;
+   
+   
+
+}
+
+/* format hr tag */
+hr{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* format social link div */
+.social-links{
+    text-align: center;
+
+}
+
+
+/* format social link icon  */
+.social-links .fa{
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    border: 1px solid #009688;
+    border-radius: 50%;
+    margin: 40px 5px 0;
+    color: white;
+    background: #009688;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+
+
+/* add hover effect to icon */
+.social-links .fa:hover {
+    background: yellow;
+    color: red;
+    transform: translateY(-10px);
+
+}
+
+/* Email detail format end*/
+
+
+/* Modal for new mail format starts */
+#new-mail .input-wrap {
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+}
+
+#new-mail .input-wrap input {
+    width: 100%;
+    flex-grow: 1;
+}
+
+#new-mail .input-wrap label {
+    color: #767676;
+    margin-right: 2px;
+}
+
+#new-mail input[type="text"] {
+    border: none;
+}
+
+#new-mail input[type="text"]:focus {
+    outline: none;
+}
+
+#new-mail textarea {
+    width: 100%;
+    min-height: 175px;
+    border: none;
+    resize: none;
+    font-size: 14px;
+}
+
+#new-mail textarea:focus {
+    outline: none;
+}
+
+
+/* Modal for new mail format ends */
