@@ -29,6 +29,15 @@
     <title> Responsive Website built with bootstrap</title>
 </head>
 
+<style>
+    #side-nave .btn-close{
+        color: red;
+        border: 1px solid red;
+
+        
+    }
+</style>
+
 <body>
 
 
@@ -43,9 +52,18 @@
                 offcanvas-start to show the side nav when click the toggle -->
             <div class="offcanvas-md offcanvas-start col-12 col-md-4 col-lg-2 bg-info pt-5" tabindex="-1" 
             aria-labelledby="side-navLabel" id="side-nav">
-                
 
-                <img class="d-block mx-auto rounded-circle" src="../img/Long pic.JPG" alt="profile picture" title="profile picture">
+  
+                
+                <div class="offcanvas-header d-flex justify-content-end d-sm-none">
+                    <!-- <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdrop with scrolling</h5> -->
+        
+            
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#side-nav" aria-label="Close"></button>
+            
+                  </div>
+
+                <img class="d-block mx-auto rounded-circle" src="img/Long pic.JPG" alt="profile picture" title="profile picture">
 
                 <h3 class="text-center p-4">Long Nguyen</h3>
                 
@@ -54,11 +72,11 @@
                 
 
                 
-                <a href="#email-list"> <i class="fas fa-envelope-open"></i><span> Inbox (10)</span></a>
+                <a href="https://www.facebook.com/" target="_blank" > <i class="fas fa-envelope-open"></i><span> Inbox (10)</span></a>
                 <a href="#"> <i class="fas fa-paper-plane"></i><span> Sent</span></a>
                 <a href="#"> <i class="fas fa-pen-to-square"></i><span> Draft</span></a>
                 <a href="#"> <i class="fas fa-bell-slash"></i><span> Spam</span></a>
-                <a href="#"> <i class="fas fa-trash-can"></i><span> Trash</span></a>
+                <a href="#email-detail"> <i class="fas fa-trash-can"></i><span> Trash</span></a>
                 </div>
 
 
